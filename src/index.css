@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #23E1F2;
+  --primary-color-hover: #23e1f2ca;
+  --black-color: #000000;
+  --background-color: #F3F3F3;
+  
+  --primary-font-family: "Kaushan Script", serif;;
+  --font-family: "Poppins", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color-hover);
+}

@@ -1,0 +1,61 @@
+.itinerary {
+    display: flex;
+    gap: 25px;
+    height: 500px; 
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 100%; 
+  }
+  
+  .itinerary-info {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .days-container {
+    overflow-y: auto;
+    max-height: 350px; 
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .itinerary-info h3 {
+    background-color: var(--primary-color);
+  }
+  .itinerary-info h4 {
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .itinerary-info li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .itinerary-info ul {
+    gap: 10px;
+  }
+
+.days-container::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  .days-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .days-container::-webkit-scrollbar-track {
+    background-color: var(--background-color); 
+  }
+
+  .itinerary-info svg {
+    margin-right: 3px;
+    color: var(--primary-color);
+  }

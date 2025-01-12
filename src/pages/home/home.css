@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.home img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.home form {
+    margin-top: 20px;
+}
+
+.home .input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.home .input input {
+    background-color: transparent;
+    padding: 5px;
+
+}
+
+.home .numbers-container{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.home .button-form{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px){
+    .home {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .home .numbers-container{
+        flex-direction: column;
+    }
+}
